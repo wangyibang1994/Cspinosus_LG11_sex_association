@@ -1,0 +1,19 @@
+name: cspinosus-figures
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.5
+  - r-ape=5.8_1
+  - r-ggplot2
+  - r-dplyr
+  - r-readr
+  - r-tidyr
+  - r-scales
+  - r-patchwork
+  - python=3.11
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - pyyaml

@@ -1,0 +1,12 @@
+component	software	version	status	notes
+discovery_mapping	BWA-MEM	0.7.18-r1243	confirmed_server_env	env_bwa
+discovery_bam	Samtools	1.23.1	confirmed_server_env	env_bwa
+discovery_variants	BCFtools/HTSlib	1.24	confirmed_server_env	cspinosus_genomics
+external_variants	GATK	4.2.0.0	confirmed_server_env	gatk420
+external_mapping	BWA-MEM	0.7.18-r1243	confirmed_server_env	env_bwa
+external_population	PLINK	1.90b6.21	confirmed_log	External candidate extraction log
+kmer	KMC/KMC tools	3.2.4	confirmed_server_binary	Canonical k=31
+local_tree	ape	5.8-1	confirmed_server_env	popgen_r
+local_R	R	4.5.3	confirmed_server_env	popgen_r
+global_structure	ADMIXTURE	1.3.0	provider_report	Exact CV command was not retained in the supplied report
+read_cleaning	fastp	version not reported	provider_report	Provider report records -l 50 -w 4 and stated filtering criteria; analysis-ready reads are deposited

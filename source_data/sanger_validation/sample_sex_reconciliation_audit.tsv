@@ -1,0 +1,21 @@
+company_sample_id	canonical_sample_id	previous_sex	corrected_sex	change_applied	basis
+F-1-M	F_1_1	Male	Female	True	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+F-3-M	F_3_1	Female	Female	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+F-5-M	F_5_1	Female	Female	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+F-6-M	F_6_1	Female	Female	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+F-7-M	F_7_1	Female	Female	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+F-8-M	F_8_1	Female	Female	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+F-10-M	F_10_1	Female	Female	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+F-12-M	F_12_1	Female	Female	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+F-19-M	F_19_1	Female	Female	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+F-22-M	F_22_1	Female	Female	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+M-2-M	M_2_1	Male	Male	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+M-4-M	M_4_1	Male	Male	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+M-13-M	M_13_1	Male	Male	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+M-15-M	M_15_1	Male	Male	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+M-16-M	M_16_1	Male	Male	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+M-20-M	M_20_1	Male	Male	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+M-21-M	M_21_1	Male	Male	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+M-24-M	M_24_1	Male	Male	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+M-27-M	M_27_1	Male	Male	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook
+M-29-M	M_29_1	Male	Male	False	Author-confirmed 10-female/10-male allocation in supplied company numbering workbook

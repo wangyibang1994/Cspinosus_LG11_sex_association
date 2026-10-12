@@ -1,0 +1,22 @@
+method,metric,numerator,denominator,estimate,ci95_low,ci95_high
+Frozen 24-SNP unsupervised class,Accuracy,54,60,0.9,0.7985053527602123,0.9533571655261158
+Frozen 24-SNP unsupervised class,Male sensitivity,17,23,0.7391304347826086,0.5352999516257462,0.8745138395501366
+Frozen 24-SNP unsupervised class,Female specificity,37,37,1.0,0.9059421741627975,1.0
+Frozen 24-SNP unsupervised class,Male positive predictive value,17,17,1.0,0.8156818649911483,1.0
+Frozen 24-SNP unsupervised class,Female negative predictive value,37,43,0.8604651162790697,0.7273641203261714,0.9344427657203511
+Frozen 24-SNP unsupervised class,Balanced accuracy,,,0.8695652173913043,,
+Frozen 24-SNP unsupervised class,Coverage,60,60,1.0,,
+Core-83 k-mer strict conclusive calls,Accuracy,56,58,0.9655172413793104,0.8827085453568732,0.9904920716688347
+Core-83 k-mer strict conclusive calls,Male sensitivity,23,23,1.0,0.8568833815495731,1.0
+Core-83 k-mer strict conclusive calls,Female specificity,33,35,0.9428571428571428,0.8139294257983507,0.9841868381428913
+Core-83 k-mer strict conclusive calls,Male positive predictive value,23,25,0.92,0.7503389104960468,0.9777795987151524
+Core-83 k-mer strict conclusive calls,Female negative predictive value,33,33,1.0,0.895730002457548,1.0
+Core-83 k-mer strict conclusive calls,Balanced accuracy,,,0.9714285714285714,,
+Core-83 k-mer strict conclusive calls,Coverage,58,60,0.9666666666666667,,
+Core-83 k-mer forced binary threshold,Accuracy,58,60,0.9666666666666667,0.886362257256914,0.9908106807438021
+Core-83 k-mer forced binary threshold,Male sensitivity,23,23,1.0,0.8568833815495731,1.0
+Core-83 k-mer forced binary threshold,Female specificity,35,37,0.9459459459459459,0.822953456491869,0.9850490231668423
+Core-83 k-mer forced binary threshold,Male positive predictive value,23,25,0.92,0.7503389104960468,0.9777795987151524
+Core-83 k-mer forced binary threshold,Female negative predictive value,35,35,1.0,0.9010990076755959,0.9999999999999999
+Core-83 k-mer forced binary threshold,Balanced accuracy,,,0.972972972972973,,
+Core-83 k-mer forced binary threshold,Coverage,60,60,1.0,,

@@ -1,0 +1,63 @@
+project: Cspinosus_sex_association
+
+references:
+  discovery_fasta: AUTHOR_INPUT_REQUIRED
+  discovery_fasta_sha256: 5cab70fe6ead189149a7a4d37e5cd78abde0e956ec7188d992abb40be26d392b
+  discovery_gff3: AUTHOR_INPUT_REQUIRED
+  external_fasta: data/reference/GCA_029853015.1_ASM2985301v1_genomic.fna
+  external_accession: GCA_029853015.1
+
+metadata:
+  discovery_samples: metadata/discovery_samples.tsv
+  external_samples: metadata/external_samples.tsv
+
+discovery:
+  candidate_contig: LG11
+  candidate_start: 4800000
+  candidate_end: 5500000
+  min_mapping_quality: 20
+  min_base_quality: 20
+  site_min_qual: 30
+  site_min_total_depth: 300
+  site_max_total_depth: 3000
+  max_missing_fraction: 0.10
+  min_maf: 0.05
+  window_bp: 200000
+  step_bp: 50000
+  high_delta_af: 0.30
+  permutation_replicates: 500
+  permutation_seed_first: 1
+  permutation_seed_last: 500
+
+local_structure:
+  ld_window_bp: 50000
+  ld_r2: 0.80
+  permutation_replicates: 10000
+  permutation_seed: 20250826
+  heatmap_markers: 120
+
+kmer:
+  k: 31
+  pooled_min_count: 5
+  pooled_high_support_count: 100
+  individual_min_count: 2
+  marker_present_count: 5
+  core_min_males: 29
+  core_max_females: 0
+  external_detection_count: 3
+
+external:
+  contig: CM056831.1
+  candidate_start: 4800000
+  candidate_end: 5500000
+  min_genotype_dp: 4
+  min_genotype_gq: 20
+  max_missing_fraction: 0.10
+  min_maf: 0.01
+  frozen_snp_panel_size: 50
+  kmeans_k: 2
+  kmeans_nstart: 100
+  kmeans_seed: 20260828
+  validation_sex_counts:
+    female: 37
+    male: 23

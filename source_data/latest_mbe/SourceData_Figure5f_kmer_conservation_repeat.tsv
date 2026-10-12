@@ -1,0 +1,5 @@
+label	value	type
+C. spinosus exact	81	Exact 31-mer match
+C. lucerna exact	7	Exact 31-mer match
+C. cuculus exact	0	Exact 31-mer match
+C. spinosus repeat overlap	64	Repeat overlap

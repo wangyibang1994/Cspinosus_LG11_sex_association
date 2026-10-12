@@ -1,0 +1,55 @@
+{
+  "genome_scan_maxima": {
+    "WEIGHTED_FST": {
+      "value": 0.10809702,
+      "chrom": "LG11",
+      "start": 4950000,
+      "end": 5150000
+    },
+    "MEAN_ED": {
+      "value": 0.20641037,
+      "chrom": "LG11",
+      "start": 4900000,
+      "end": 5100000
+    },
+    "N_DELTA_AF_GE_0.3": {
+      "value": 213.0,
+      "chrom": "LG11",
+      "start": 5050000,
+      "end": 5250000
+    }
+  },
+  "local_pca_samples": 60,
+  "heatmap_samples": 60,
+  "heatmap_marker_ranks": 120,
+  "core_kmers": 83,
+  "core_kmer_rule_check": {
+    "all_males_ge_29": true,
+    "all_females_eq_0": true
+  },
+  "external_validation": {
+    "n": 60,
+    "sex_counts": {
+      "Female": 37,
+      "Male": 23
+    },
+    "snp_correct": 54,
+    "snp_accuracy": 0.9,
+    "snp_accuracy_wilson95": [
+      0.7985053527602123,
+      0.9533571655261158
+    ],
+    "kmer_conclusive_n": 58,
+    "kmer_conclusive_correct": 56,
+    "kmer_conclusive_accuracy": 0.9655172413793104,
+    "kmer_conclusive_accuracy_wilson95": [
+      0.8827085453568732,
+      0.9904920716688347
+    ],
+    "kmer_coverage": 0.9666666666666667,
+    "kmer_inconclusive_samples": [
+      "BY1",
+      "BY5"
+    ]
+  }
+}

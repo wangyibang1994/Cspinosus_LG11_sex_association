@@ -1,0 +1,5 @@
+Analysis,Female mean,Male mean,M−F,Statistical evidence
+All 3310 QC SNPs: per-individual heterozygous-genotype proportion,0.36055,0.46270,0.10215,Welch P=5.262e-09; perm. P=9.999e-05
+Frozen top-50 |delta AF| SNPs: per-individual heterozygous-genotype proportion,0.09650,0.88000,0.78350,Welch P=NA; perm. P=9.999e-05
+Candidate interval: flanking-normalized mean depth,0.93516,1.07900,0.14384,Welch P=2.441e-13; perm. P=9.999e-05
+Candidate interval excluding LG11:5.20-5.22 Mb: flanking-normalized mean depth,0.86465,0.96969,0.10504,Welch P=7.215e-24; perm. P=9.999e-05

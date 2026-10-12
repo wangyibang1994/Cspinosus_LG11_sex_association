@@ -1,0 +1,26 @@
+name: cspinosus-full
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bwa=0.7.18
+  - samtools=1.24
+  - bcftools=1.24
+  - gatk4=4.2.0.0
+  - fastp
+  - plink=1.90b6.21
+  - admixture
+  - kmc=3.2.4
+  - python=3.11
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - pyyaml
+  - r-base=4.5
+  - r-ape=5.8_1
+  - r-ggplot2
+  - r-dplyr
+  - r-readr
+  - r-tidyr
+  - r-patchwork

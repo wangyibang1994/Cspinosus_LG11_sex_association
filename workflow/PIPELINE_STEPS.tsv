@@ -1,0 +1,23 @@
+step	cohort	input	operation	software_or_script	key_parameters	output	public_status
+01	discovery	provider-delivered paired FASTQ	read cleaning	fastp (version not reported)	-l 50 -w 4; provider-reported trimming/filtering criteria	analysis-ready paired FASTQ	provider_reported
+02	discovery	clean FASTQ + discovery reference	mapping	BWA-MEM 0.7.18; Samtools 1.23.1	16 BWA threads; coordinate sort	indexed BAM	legacy_script_present
+03	discovery	indexed BAM	variant calling	BCFtools 1.24	MQ20; BQ20; multiallelic caller	per-LG raw VCF	legacy_script_present
+04	discovery	per-LG raw VCF	site filtering	BCFtools 1.24	biallelic SNP; QUAL30; total DP300-3000; missing<=0.1; MAF>=0.05	filtered per-LG VCF	legacy_script_present
+05	discovery	genome-wide filtered VCF	global structure	PLINK; ADMIXTURE; NJ	LD 50 10 0.1; K1-10	PCA/tree/ancestry outputs	partial_metadata
+06	discovery	filtered per-LG VCF + final sex labels	genome scan	06_corrected_genome_scans.py	200kb windows; 50kb step	window metrics	analysis_script_present
+07	discovery	filtered per-LG VCF + final sex labels	genome-wide calibration	genome_wide_permutation_calibration.py	500 label permutations; seeds1-500	permutation maxima	analysis_script_present
+08	discovery	LG11:4.8-5.5Mb VCF	local PCA/NJ/heatmap	candidate_interval_structure.R	50kb r2=0.8; 10000 permutations	local structure	needs_path_parameterisation
+09	discovery	candidate SNPs + GFF3	context annotation	annotate_high_daf_snps_gff3.py	high-|DeltaAF| ranking	annotated SNPs	needs_phase_aware_coding_reanalysis
+10	discovery	candidate VCF + BAM	individual heterozygosity/depth	01_LG11_genotype_heterozygosity_analysis.py; samtools depth	10000 permutations; 10kb bins	heterozygosity/depth tables	analysis_script_present
+11	discovery	clean FASTQ	pooled and individual k-mer counting	KMC 3.2.4	canonical k31; pooled ci5; individual ci2	KMC databases	legacy_script_present
+12	discovery	pooled/individual k-mers	core marker selection	KMC tools + shell	male pooled>=100; individual>=5; >=29/30M; 0/30F	83 frozen k-mers	marker_file_required
+13	discovery	83 k-mers + discovery reference	exact localisation	BWA-MEM 0.7.18	-a -k15; 31M; NM0	101 exact hits for 81 markers	legacy_script_present
+14	external	provider-delivered paired FASTQ	read cleaning	fastp	Exact provider parameters retained with archive metadata where available	analysis-ready paired FASTQ	archive_metadata_required
+15	external	clean FASTQ + GCA_029853015.1	mapping and duplicate marking	BWA-MEM 0.7.18; GATK 4.2.0.0	-M; read groups; MarkDuplicates	markdup BAM	legacy_script_present
+16	external	markdup BAM	per-sample GVCF	GATK HaplotypeCaller 4.2.0.0	-ERC GVCF	60 gVCFs	legacy_script_present
+17	external	60 gVCFs	joint genotyping	GenomicsDBImport; GenotypeGVCFs	batch10; reader threads4	cohort raw VCF	legacy_script_present
+18	external	cohort raw VCF	hard and genotype filtering	GATK 4.2.0.0	QD2 FS60 SOR3 MQ40 MQRankSum-12.5 ReadPosRankSum-8; DP4 GQ20; missing0.1; MAF0.01	filtered VCF	legacy_script_present
+19	external	filtered VCF + frozen top50 SNPs	panel matching and unsupervised classification	PLINK 1.90b6.21; R/Python	exact coordinate+alleles; 24 matches; PC1-5 Kmeans K2 nstart100 seed20260828	SNP sex class	final_source_data_present
+20	external	clean FASTQ + frozen83 k-mers	blind k-mer screen	KMC 3.2.4	marker count>=3; strict gap classification	k-mer score/call	final_source_data_present
+21	external	SNP/k-mer calls + dissected sex	validation statistics	custom Python/R	Wilson95 CI; accuracy; sensitivity; specificity; balanced accuracy; MCC	validation metrics	final_source_data_present
+22	all	machine-readable outputs	figure rendering	R scripts	publication dimensions and palettes	main/supplementary figures	needs_path_parameterisation

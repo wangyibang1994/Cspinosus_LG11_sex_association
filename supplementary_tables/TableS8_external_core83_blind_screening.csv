@@ -1,0 +1,61 @@
+sample,filtered_reads_r1,filtered_reads_r2,core83_kmers_ge1,core83_kmers_ge2,core83_kmers_ge3,core83_kmers_ge5,core83_kmers_ge10,sum_detected_kmer_counts,screen_score,core83_evidence,core83_binary,locality,genetic_class,ward_class,recorded_sex_population_file,sex_sample_info,sex_master_record,audit_status,sex_for_formal_v1_analysis,formal_v1_record_basis
+BY10,48,60,83,83,83,79,59,1191,83,High-confidence positive,Male-associated core-k-mer class,Weihai City,M,M,Unknown,Unknown,Unknown,No recorded phenotype,M,Author confirmation v1 (previously phenotype-unknown)
+BY2,65,50,83,83,83,83,48,1186,83,High-confidence positive,Male-associated core-k-mer class,Weihai City,M,M,Unknown,Unknown,Unknown,No recorded phenotype,M,Author confirmation v1 (previously phenotype-unknown)
+BY3,56,54,83,83,83,81,61,1010,83,High-confidence positive,Male-associated core-k-mer class,Weihai City,M,M,Unknown,Unknown,Unknown,No recorded phenotype,M,Author confirmation v1 (previously phenotype-unknown)
+E1,40,51,83,83,83,75,41,922,83,High-confidence positive,Male-associated core-k-mer class,Yangtze Estuary,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+E10,42,47,83,83,83,81,45,901,83,High-confidence positive,Male-associated core-k-mer class,Yangtze Estuary,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+E5,62,41,83,83,83,81,40,1019,83,High-confidence positive,Male-associated core-k-mer class,Yangtze Estuary,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+E6,42,41,83,83,83,75,40,806,83,High-confidence positive,Male-associated core-k-mer class,Yangtze Estuary,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+Fukui4,53,43,83,83,83,83,69,1077,83,High-confidence positive,Male-associated core-k-mer class,Fukui,M,M,Unknown,Unknown,Unknown,No recorded phenotype,M,Author confirmation v1 (previously phenotype-unknown)
+Fukui6,49,48,83,83,83,83,36,901,83,High-confidence positive,Male-associated core-k-mer class,Fukui,M,M,Unknown,Unknown,Unknown,No recorded phenotype,M,Author confirmation v1 (previously phenotype-unknown)
+Ibaraki1,56,43,83,83,83,54,40,898,83,High-confidence positive,Male-associated core-k-mer class,Ibaraki,F,F,M,M,M,Discordant: review required,M,Author confirmation v1 (agrees with previous curated record)
+Ibaraki2,53,44,83,83,83,79,40,910,83,High-confidence positive,Male-associated core-k-mer class,Ibaraki,M,M,M,M,M,Concordant record,M,Prior reconciled/author-confirmed audit
+Ibaraki3,45,49,83,83,83,55,42,775,83,High-confidence positive,Male-associated core-k-mer class,Ibaraki,F,F,F,F,F,Concordant record,F,Prior reconciled/author-confirmed audit
+S11,57,51,83,83,83,83,41,901,83,High-confidence positive,Male-associated core-k-mer class,Guangzhou City,M,M,Unknown,Unknown,F,Concordant after author correction,M,Prior reconciled/author-confirmed audit
+S2,59,64,83,83,83,83,46,1070,83,High-confidence positive,Male-associated core-k-mer class,Guangzhou City,M,M,Unknown,Unknown,M,Concordant record,M,Prior reconciled/author-confirmed audit
+S5,57,38,83,83,83,83,63,934,83,High-confidence positive,Male-associated core-k-mer class,Guangzhou City,M,M,Unknown,Unknown,F,Concordant after author correction,M,Prior reconciled/author-confirmed audit
+S6,50,41,83,83,83,79,40,1037,83,High-confidence positive,Male-associated core-k-mer class,Guangzhou City,M,M,Unknown,Unknown,M,Concordant record,M,Prior reconciled/author-confirmed audit
+S7,73,64,83,83,83,83,44,1122,83,High-confidence positive,Male-associated core-k-mer class,Guangzhou City,M,M,Unknown,Unknown,F,Concordant after author correction,M,Prior reconciled/author-confirmed audit
+S8,61,54,83,83,83,83,51,954,83,High-confidence positive,Male-associated core-k-mer class,Guangzhou City,F,F,Unknown,Unknown,F,Concordant record,F,Prior reconciled/author-confirmed audit
+Shizuoka3,50,49,83,83,83,80,56,967,83,High-confidence positive,Male-associated core-k-mer class,Shizuoka,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+Shizuoka5,43,44,83,83,83,60,36,778,83,High-confidence positive,Male-associated core-k-mer class,Shizuoka,M,M,Unknown,Unknown,Unknown,No recorded phenotype,M,Author confirmation v1 (previously phenotype-unknown)
+BY4,42,38,83,83,81,79,40,748,81,High-confidence positive,Male-associated core-k-mer class,Weihai City,M,M,Unknown,Unknown,Unknown,No recorded phenotype,M,Author confirmation v1 (previously phenotype-unknown)
+BY9,37,23,83,83,79,53,32,706,79,High-confidence positive,Male-associated core-k-mer class,Weihai City,M,M,Unknown,Unknown,Unknown,No recorded phenotype,M,Author confirmation v1 (previously phenotype-unknown)
+Fukui1,52,45,83,83,79,79,51,959,79,High-confidence positive,Male-associated core-k-mer class,Fukui,M,M,Unknown,Unknown,Unknown,No recorded phenotype,M,Author confirmation v1 (previously phenotype-unknown)
+Shizuoka6,59,51,83,83,74,46,40,1205,74,High-confidence positive,Male-associated core-k-mer class,Shizuoka,M,M,Unknown,Unknown,Unknown,No recorded phenotype,M,Author confirmation v1 (previously phenotype-unknown)
+Miyagi3,51,38,83,83,68,44,40,759,68,High-confidence positive,Male-associated core-k-mer class,Miyagi,M,M,M,M,Unknown,Concordant record,M,Prior reconciled/author-confirmed audit
+BY1,3,3,7,7,7,7,0,37,7,Low-evidence / inconclusive,,Weihai City,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+BY5,5,1,7,7,7,7,0,42,7,Low-evidence / inconclusive,,Weihai City,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+BY6,1,1,25,8,0,0,0,33,0,Negative,Female-associated core-k-mer class,Weihai City,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+BY7,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,Weihai City,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+BY8,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,Weihai City,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+Chiba1,0,2,32,0,0,0,0,32,0,Negative,Female-associated core-k-mer class,Chiba,F,F,F,F,Unknown,Concordant record,F,Prior reconciled/author-confirmed audit
+Chiba2,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,Chiba,F,F,F,F,F,Concordant record,F,Prior reconciled/author-confirmed audit
+Chiba3,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,,F,F,F,Unknown,Unknown,Concordant record,F,Prior reconciled/author-confirmed audit
+Chiba4,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,,F,F,F,Unknown,Unknown,Concordant record,F,Prior reconciled/author-confirmed audit
+E2,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,Yangtze Estuary,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+E3,0,1,4,0,0,0,0,4,0,Negative,Female-associated core-k-mer class,Yangtze Estuary,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+E4,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,Yangtze Estuary,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+E7,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,Yangtze Estuary,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+E8,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,Yangtze Estuary,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+E9,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,Yangtze Estuary,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+Fukui2,1,0,2,0,0,0,0,2,0,Negative,Female-associated core-k-mer class,Fukui,F,F,F,F,Unknown,Concordant record,F,Prior reconciled/author-confirmed audit
+Fukui3,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,Fukui,F,F,F,F,Unknown,Concordant record,F,Prior reconciled/author-confirmed audit
+Fukui5,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,Fukui,F,F,F,F,Unknown,Concordant record,F,Prior reconciled/author-confirmed audit
+Miyagi1,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,Miyagi,F,F,F,F,Unknown,Concordant record,F,Prior reconciled/author-confirmed audit
+Miyagi2,0,2,25,25,0,0,0,50,0,Negative,Female-associated core-k-mer class,Miyagi,F,F,F,F,Unknown,Concordant record,F,Prior reconciled/author-confirmed audit
+Miyagi4,4,4,44,22,0,0,0,66,0,Negative,Female-associated core-k-mer class,Miyagi,F,F,F,F,Unknown,Concordant record,F,Prior reconciled/author-confirmed audit
+Miyagi5,0,1,4,0,0,0,0,4,0,Negative,Female-associated core-k-mer class,Miyagi,F,F,F,F,Unknown,Concordant record,F,Prior reconciled/author-confirmed audit
+Nagasaki1,0,1,11,0,0,0,0,11,0,Negative,Female-associated core-k-mer class,Nagasaki,F,F,F,F,Unknown,Concordant record,F,Prior reconciled/author-confirmed audit
+Nagasaki2,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,Nagasaki,F,F,F,F,Unknown,Concordant record,F,Prior reconciled/author-confirmed audit
+Nagasaki3,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,Nagasaki,F,F,F,F,Unknown,Concordant record,F,Prior reconciled/author-confirmed audit
+Nagasaki4,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,Nagasaki,F,F,F,F,Unknown,Concordant record,F,Prior reconciled/author-confirmed audit
+Nagasaki5,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,Nagasaki,F,F,F,F,Unknown,Concordant record,F,Prior reconciled/author-confirmed audit
+S1,1,0,6,0,0,0,0,6,0,Negative,Female-associated core-k-mer class,Guangzhou City,F,F,Unknown,Unknown,F,Concordant record,F,Prior reconciled/author-confirmed audit
+S10,2,0,29,0,0,0,0,29,0,Negative,Female-associated core-k-mer class,Guangzhou City,F,F,Unknown,Unknown,F,Concordant record,F,Prior reconciled/author-confirmed audit
+S3,0,1,7,0,0,0,0,7,0,Negative,Female-associated core-k-mer class,Guangzhou City,F,F,Unknown,Unknown,F,Concordant record,F,Prior reconciled/author-confirmed audit
+S4,0,1,4,0,0,0,0,4,0,Negative,Female-associated core-k-mer class,Guangzhou City,F,F,Unknown,Unknown,F,Concordant record,F,Prior reconciled/author-confirmed audit
+S9,0,0,0,0,0,0,0,0,0,Negative,Female-associated core-k-mer class,Guangzhou City,F,F,Unknown,Unknown,F,Concordant record,F,Prior reconciled/author-confirmed audit
+Shizuoka1,1,0,7,0,0,0,0,7,0,Negative,Female-associated core-k-mer class,Shizuoka,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+Shizuoka2,0,1,7,0,0,0,0,7,0,Negative,Female-associated core-k-mer class,Shizuoka,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)
+Shizuoka4,1,0,7,0,0,0,0,7,0,Negative,Female-associated core-k-mer class,Shizuoka,F,F,Unknown,Unknown,Unknown,No recorded phenotype,F,Author confirmation v1 (previously phenotype-unknown)

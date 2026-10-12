@@ -1,0 +1,14 @@
+methods_section	primary_inputs	final_script_or_command	primary_outputs	manuscript_evidence
+Discovery mapping	quality-filtered FASTQ; discovery reference	workflow/scripts/discovery/01_map_one.sh	indexed BAM; flagstat	Figure1
+Discovery SNP calling	indexed discovery BAMs	workflow/scripts/discovery/02_call_and_filter_interval.sh; workflow/legacy_lsf/05_call_genome_LG_array.lsf.sh	candidate and per-LG filtered VCFs	Figures2-7
+Genome-wide structure	genome-wide filtered VCF	AUTHOR_INPUT_REQUIRED	PCA; NJ; ADMIXTURE	Figure5a,c
+Genome-wide sex scan	per-LG filtered VCFs; final discovery sex labels	workflow/scripts/discovery/06_corrected_genome_scans.py	window metrics	Figures3-4
+Genome-wide permutation	per-LG filtered VCFs; final discovery sex labels	workflow/scripts/discovery/genome_wide_permutation_calibration.py; aggregate_genome_wide_permutations.py	500 replicate maxima; empirical P values	FigureS1; TableS3
+Local structure	candidate VCF	workflow/scripts/discovery/candidate_interval_structure.R	PCA; NJ; top120 heatmap data	Figures5b,d and 6
+SNP context annotation	candidate SNP ranking; versioned GFF3	workflow/scripts/discovery/annotate_high_daf_snps_gff3.py	context annotation	Figure7; TablesS5-S6
+Heterozygosity and depth	candidate VCF; BAMs	workflow/scripts/discovery/01_LG11_genotype_heterozygosity_analysis.py; samtools depth	heterozygosity/depth source data	FigureS4; TableS7
+Core k-mer discovery	discovery clean FASTQ	workflow/legacy_lsf/03_prepare_sex_kmer_lists.sh through 12_select_and_map_core_male_kmers.lsf.sh	83 frozen core k-mers	FigureS2; TableS4
+External mapping and calling	external quality-filtered FASTQ; GCA_029853015.1	workflow/scripts/external/01_map_and_markdup_one.sh; 02_haplotypecaller_one.sh; 03_filter_joint_snp_vcf.sh	filtered cohort VCF	Figure8 validation input
+Frozen SNP validation	external filtered VCF; metadata/frozen_top50_discovery_snps.csv	workflow/legacy_lsf/historical_external_validation/test_frozen_high_daf_panels.R	24-marker matrix; PCA; clusters	Figure8; TablesS11-S12
+Frozen k-mer validation	external clean FASTQ; metadata/frozen_core83_kmers.csv	workflow/legacy_lsf/13_make_core_male_kmer_db.lsf.sh through 15_aggregate_external_core_male_kmer_scores.lsf.sh	sample scores and calls	Figure8; FigureS5-S6; TablesS8-S12
+Key-number smoke test	deposited source data	workflow/reproduce_key_numbers.py	results/key_numbers.json	release QA

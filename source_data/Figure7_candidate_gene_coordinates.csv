@@ -1,0 +1,30 @@
+"CHROM","START","END","STRAND","GENE_ID","annotation","lane","label"
+"LG11",4900037,4921430,"-","Csp11G001200","Arrestin domain-containing protein 1 OS=Mus musculus OX=10090 GN=Arrdc1 PE=1 SV=2",1,NA
+"LG11",4923706,4927962,"+","Csp11G001210","--",1,NA
+"LG11",4947495,4948799,"-","Csp11G001220","Putative nuclease HARBI1 OS=Danio rerio OX=7955 GN=harbi1 PE=2 SV=1",1,NA
+"LG11",4982745,4983672,"+","Csp11G001230","Neural proliferation differentiation and control protein 1 OS=Mus musculus OX=10090 GN=Npdc1 PE=2 SV=2",1,NA
+"LG11",5059721,5069376,"+","Csp11G001240","--",1,NA
+"LG11",5071576,5074959,"+","Csp11G001250","--",1,NA
+"LG11",5075635,5077551,"+","Csp11G001260","--",1,NA
+"LG11",5092885,5097425,"+","Csp11G001270","--",1,NA
+"LG11",5118520,5122480,"-","Csp11G001280","Alpha-(1,3)-fucosyltransferase 7 OS=Bos taurus OX=9913 GN=FUT7 PE=1 SV=2",1,"FUT7"
+"LG11",5210281,5210920,"+","Csp11G001290","--",1,NA
+"LG11",5222318,5239530,"-","Csp11G001300","--",1,"Csp11G001300"
+"LG11",5252253,5256462,"+","Csp11G001310","--",1,NA
+"LG11",5257976,5270761,"-","Csp11G001320","Transcription factor 12 (Fragment) OS=Gallus gallus OX=9031 GN=TCF12 PE=2 SV=2",1,"TCF12"
+"LG11",5328666,5331475,"-","Csp11G001330","Tubulin beta-1 chain OS=Gadus morhua OX=8049 PE=2 SV=1",1,NA
+"LG11",5340126,5344046,"+","Csp11G001340","--",1,NA
+"LG11",5353715,5358268,"-","Csp11G001350","Paralemmin-2 OS=Mus musculus OX=10090 GN=Palm2 PE=1 SV=1",1,NA
+"LG11",5359297,5366213,"-","Csp11G001360","Immediate early response 3-interacting protein 1 OS=Xenopus laevis OX=8355 GN=ier3ip1 PE=3 SV=1",1,NA
+"LG11",5367527,5378269,"-","Csp11G001370","Mothers against decapentaplegic homolog 2 OS=Danio rerio OX=7955 GN=smad2 PE=2 SV=1",1,"SMAD2"
+"LG11",5378767,5388356,"+","Csp11G001380","Low-density lipoprotein receptor-related protein 1B OS=Homo sapiens OX=9606 GN=LRP1B PE=1 SV=2",1,"LRP1B"
+"LG11",5392331,5392939,"+","Csp11G001390","--",1,NA
+"LG11",5393036,5398269,"-","Csp11G001400","RING finger and CHY zinc finger domain-containing protein 1 OS=Mus musculus OX=10090 GN=Rchy1 PE=1 SV=1",1,"RCHY1"
+"LG11",5398642,5401888,"-","Csp11G001410","--",1,NA
+"LG11",5406383,5410853,"+","Csp11G001420","Centrosomal AT-AC splicing factor OS=Mus musculus OX=10090 GN=Cenatac PE=2 SV=1",1,NA
+"LG11",5411509,5428641,"+","Csp11G001430","--",1,NA
+"LG11",5434540,5435579,"+","Csp11G001440","--",1,NA
+"LG11",5435682,5441608,"+","Csp11G001450","Atos homolog protein B OS=Mus musculus OX=10090 GN=Atosb PE=1 SV=1",1,NA
+"LG11",5445015,5461285,"-","Csp11G001460","Aminopeptidase NAALADL1 OS=Mus musculus OX=10090 GN=Naaladl1 PE=2 SV=1",1,NA
+"LG11",5466031,5474967,"+","Csp11G001470","Endoplasmic reticulum aminopeptidase 1 OS=Homo sapiens OX=9606 GN=ERAP1 PE=1 SV=3",1,NA
+"LG11",5475786,5480176,"+","Csp11G001480","--",1,NA

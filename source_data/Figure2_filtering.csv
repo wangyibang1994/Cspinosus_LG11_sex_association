@@ -1,0 +1,7 @@
+"Type","stage","n"
+"SNP","Raw",15607864
+"SNP","Quality-filtered",15328271
+"SNP","Population-filtered",3891433
+"InDel","Raw",4037526
+"InDel","Quality-filtered",3998140
+"InDel","Population-filtered",810897

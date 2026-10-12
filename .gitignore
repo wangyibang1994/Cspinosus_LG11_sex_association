@@ -1,0 +1,25 @@
+# Raw sequencing data and alignment outputs belong in SRA/ENA, never GitHub.
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+*.g.vcf.gz
+*.g.vcf.gz.tbi
+
+# Local configuration, credentials and transfer artefacts.
+config/config.yaml
+*.openssh
+*.pem
+*.key
+.env
+upload_logs/
+preload/
+
+# Operating-system and editor artefacts.
+.DS_Store
+*.swp
+*.tmp
